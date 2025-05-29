@@ -35,4 +35,4 @@ def monitor(interval=30):
             notify(f"No change")
         time.sleep(interval)
 
-monitor(900)
+monitor(450)
