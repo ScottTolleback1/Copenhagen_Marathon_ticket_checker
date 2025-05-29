@@ -32,7 +32,7 @@ def monitor(interval=30):
             notify("Page has changed")
             last_hash = current_hash
         else:
-            notify(f"No change at")
+            notify(f"No change")
         time.sleep(interval)
 
-monitor(1800)
+monitor(900)
